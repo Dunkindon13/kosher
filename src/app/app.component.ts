@@ -6,15 +6,8 @@ import {Component, OnInit} from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 
-export class AppComponent implements OnInit {
-  cardTitle = 'Kosher App';
-  cardSub = 'Kosher Info';
-  cardContent = 'A future list of Kosher things.';
+export class AppComponent {
 
-  // Init method
-  ngOnInit(): void {
-    this.cardTitle = 'Word!!';
-  }
 }
 
 

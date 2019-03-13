@@ -1,3 +1,14 @@
-<p>
-  rest-card works!
-</p>
+
+  <mat-card class="width">
+    <mat-card-header>
+      <mat-card-title>{{restaurant.name}}</mat-card-title>
+      <mat-card-subtitle>Tel: {{restaurant.phone}}<br>
+        Website: {{restaurant.website}}</mat-card-subtitle>
+    </mat-card-header>
+
+
+    <mat-card-content>
+<p>Rating: {{restaurant.rating}} <br> Price Range: {{restaurant.priceRange}}</p>
+</mat-card-content>
+</mat-card>
+
