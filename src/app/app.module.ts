@@ -4,9 +4,8 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
-// Angular Material Imports
 import {MatCardModule} from '@angular/material/card';
+
 import { RestCardComponent } from './views/rest-card/rest-card.component';
 import { RestaurantsComponent } from './views/restaurants/restaurants.component';
 
