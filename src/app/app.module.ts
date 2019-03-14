@@ -8,11 +8,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 // Angular Material Imports
 import {MatCardModule} from '@angular/material/card';
 import { RestCardComponent } from './views/rest-card/rest-card.component';
+import { RestaurantsComponent } from './views/restaurants/restaurants.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    RestCardComponent
+    RestCardComponent,
+    RestaurantsComponent
   ],
   imports: [
     BrowserModule,
