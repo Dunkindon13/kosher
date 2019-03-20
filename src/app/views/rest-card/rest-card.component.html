@@ -8,8 +8,8 @@
 
 
     <mat-card-content>
-      <!--The restaurant's rating, out of 5-->
-      <p>Rating: {{restaurant.rating}}</p>
+      <!--The restaurant's rating, out of 5 and the restaurant's review, if any-->
+      <p>Rating: {{restaurant.rating}} <span *ngIf="restaurant.reviews">Review: {{restaurant.reviews}}></span></p>
 
       <!--If clause is there to show address if there is one associated with the restaurant-->
       <p *ngIf="restaurant.location">
