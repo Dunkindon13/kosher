@@ -1,6 +1,7 @@
 // region Imports
 import {Address} from './address';
 import {Review} from './review';
+
 // endregion
 
 export class Restaurant {
@@ -13,14 +14,19 @@ export class Restaurant {
   reviews: Review[];
   location: Address;
   // endregion
+
   // region Default Methods
   constructor(args?) {
-    this.name = args.name;
-    this.website = args.website;
-    this.phone = args.phone;
-    this.rating = args.rating;
-    this.avgMealPrice = args.avgMealPrice;
+    if (args) {
+      this.name = args.name;
+      this.website = args.website;
+      this.phone = args.phone;
+      this.rating = args.rating;
+      this.avgMealPrice = args.avgMealPrice;
+      this.location = args.location;
+    }
   }
+
   // endregion
 }
 
